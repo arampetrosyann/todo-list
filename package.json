@@ -1,0 +1,29 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "a simple todo app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/arampetrosyann/todo-list.git"
+  },
+  "author": "Aram Petrosyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arampetrosyann/todo-list/issues"
+  },
+  "homepage": "https://github.com/arampetrosyann/todo-list#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
